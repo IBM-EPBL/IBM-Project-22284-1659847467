@@ -1,5 +1,6 @@
 # 💸 Personal Expense Tracker Application
 - IBM-Project-22284-1659847467
+- Project Group Name : PersonalExpenseTrackerApplication22GP
 - Category: Cloud App Development
 - Batch : B1-1M3E
 
