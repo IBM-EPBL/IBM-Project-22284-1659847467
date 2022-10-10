@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>About Me</title>
+		<style>
+			body{
+				background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+				color: rgb(37, 194, 233);
+				font-family: 'Kaviya', cursive;
+				font-size: 25px;
+      
+			}
+		</style>
+
+			<!-- Custom styles for this template go here -->
+				<link rel="stylesheet" href="css/about_styles.css">
+
+			<!--[if lt IE 9]>
+			<script src="dist/html5shiv.js"></script>
+			<![endif]-->			
+	</head>
+	<body>
+        
+		<div class="container">
+			<div class="header">
+				<h1>About Me</h1>
+			<div class="intro column">
+				<h2>Introduction</h2>
+				<p>
+					Hi ,I am Kaviya . <br> I am a engineering student. 
+				</p>
+			</div><!-- end intro-->
+			<div class="skills column">
+				<h3>My Skills</h3>
+				<ul id="skill-list">
+					<li>Pega</li>
+					<li>CAD</li>
+					<li>SQl</li>						
+					<li>Public spekaing</li>
+				</ul><!--end skill-list-->
+			</div><!-- end skills-->
+			</div><!-- end main-text-->
+		</div><!--end container-->
+	</body>
+</html>
