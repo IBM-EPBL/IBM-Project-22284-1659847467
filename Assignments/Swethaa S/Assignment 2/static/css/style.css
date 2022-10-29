@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+body {
+  background-image: url("../images/background-market.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#layer {
+  background-color: #00000089;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#about-layer {
+  background-color: #00000069;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.home-nav {
+  position: relative;
+  z-index: 1;
+}
+.home-nav a {
+  text-decoration: none;
+}
+.home-nav ul {
+  list-style: none;
+  float: right;
+}
+.home-nav li {
+  display: inline;
+  margin: 2rem;
+  color: #f2f6f5;
+  font-size: 22px;
+}
+.heading {
+  position: absolute;
+  z-index: 1;
+  margin-top: 60px;
+  width: 100%;
+}
+.heading h1 {
+  font-size: 100px;
+  color: #00ffaa;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 10px;
+}
+.heading p {
+  letter-spacing: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.heading p {
+  color: white;
+  font-size: 30px;
+}
+.about-nav {
+  position: relative;
+  z-index: 2;
+}
+.about-nav a {
+  text-decoration: none;
+}
+.about-nav ul {
+  list-style: none;
+  float: right;
+}
+.about-nav li {
+  display: inline;
+  margin: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+
+  font-size: 22px;
+}
+.about {
+  padding-top: 80px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+.about p {
+  line-height: 45px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.about-d {
+  background-color: #0303038d;
+  border: 5px solid #00cc88;
+  width: 60%;
+  padding: 30px;
+  color: #fefefed6;
+}
+.sign {
+  margin-top: 150px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #030303d6;
+}
+.s {
+  background-color: #f5f9f8a3;
+  padding: 30px;
+  width: 25%;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.sign h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.in {
+  padding: 10px;
+
+  width: inherit;
+  margin: 10px;
+}
+.in input {
+  width: 93%;
+  padding: 15px;
+  background-color: #000000bd;
+  color: #fafbfb;
+  border-radius: 10px;
+  border: none;
+}
+.in input::placeholder {
+  color: #ffffff;
+}
+button {
+  padding: 10px;
+  color: #030303;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  width: 25%;
+}
